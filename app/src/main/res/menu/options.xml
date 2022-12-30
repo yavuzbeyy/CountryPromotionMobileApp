@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ana_menu" android:title="Ana Menü"></item>
+    <item android:id="@+id/nufus_menu" android:title="Nufus Bilgileri"></item>
+    <item android:id="@+id/cografya_menu" android:title="Coğrafya Bilgileri"></item>
+    <item android:id="@+id/iklim_menu" android:title="İklim Bilgileri"></item>
+
+
+</menu>

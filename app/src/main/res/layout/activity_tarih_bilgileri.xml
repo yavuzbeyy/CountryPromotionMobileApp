@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tarihBilgileri">
+
+    <TextView
+        android:id="@+id/tarihBilgileri"
+        android:layout_width="205dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="112dp"
+        android:text="                 Tarih Bilgileri"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="268dp"
+        android:layout_height="290dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="111dp"
+        android:text="Günümüzde Angola'nın varlığını sürdürdüğü topraklarda yaşayan ilk topluluk Khoisan topluluğu olmuştur. Khoisan topluluğu ilerleyen yıllarda Bantu halkları tarafından bölgeden uzaklaştırılmıştır. 15. yy sonlarına doğru Avrupalılar ve özellikle de Portekizli denizciler ile başlayan temasın sonucunda Portekiz 1483 yılında, günümüzde Luanda'nın bulunduğu sahil kesiminde ve iç bölgelerde ticaret merkezleri oluşturmuştur.["
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tarihBilgileri" />
+</androidx.constraintlayout.widget.ConstraintLayout>

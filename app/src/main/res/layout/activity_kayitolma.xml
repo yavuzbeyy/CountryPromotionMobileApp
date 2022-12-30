@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".kayitolma">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Kullanıcı Adını"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:id="@+id/kayit_ol_editEmail"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Sifre"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:id="@+id/kayit_ol_editSifre"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Kayit Ol"
+        android:textSize="18sp"
+        android:onClick="kayitOl"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menüye Dön" />
+</LinearLayout>
